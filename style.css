@@ -101,6 +101,7 @@ nav {
 
 nav h3 {
   display: none;
+  
 }
 
 #center {
@@ -278,7 +279,7 @@ nav h3 {
   line-height: 4vw;
   -webkit-user-select: none;
   -ms-user-select: none;
-  user-select: none; 
+  user-select: none;
 }
 
 #bottom-part2 {
@@ -297,21 +298,21 @@ nav h3 {
   margin-top: 2vw;
   font-size: 1vw;
 }
-.feature-head{
-    display: flex;
-    align-items: center;
-    margin-left: 30px;
-    margin-bottom: 3F0px;
+.feature-head {
+  display: flex;
+  align-items: center;
+  margin-left: 30px;
+  margin-bottom: 3F0px;
 }
-.feature-head p{
-font-weight: 200;
-margin-left: 5px;
+.feature-head p {
+  font-weight: 200;
+  margin-left: 5px;
 }
-.red-dot{
-    width: 0.5em;
-    height: 0.5em;
-    background-color: #fe330a;
-    border-radius: 100vw;
+.red-dot {
+  width: 0.5em;
+  height: 0.5em;
+  background-color: #fe330a;
+  border-radius: 100vw;
 }
 
 #page2 #gooey {
@@ -358,7 +359,6 @@ margin-left: 5px;
   height: 150px;
   width: 100%;
   position: relative;
-
   border-bottom: 1px solid #38383864;
   overflow: hidden;
   display: flex;
@@ -376,7 +376,7 @@ margin-left: 5px;
 .elem .overlay {
   height: 100%;
   width: 100%;
-  background-color: #FF9831;
+  background-color: #ff9831;
   position: absolute;
   left: 0;
   top: -100%;
@@ -424,7 +424,7 @@ margin-left: 5px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin: 0 auto; 
+  margin: 0 auto;
 }
 .inner2 {
   width: 60%;
@@ -433,8 +433,8 @@ margin-left: 5px;
   justify-content: center;
   margin: 0 auto;
 }
-.inner2 p{
-    font-weight: 200;
+.inner2 p {
+  font-weight: 200;
 }
 
 .left-text h1 {
@@ -442,8 +442,8 @@ margin-left: 5px;
   cursor: pointer;
 }
 
-.left-text h1:nth-child(3){
-    margin-bottom: 40px;
+.left-text h1:nth-child(3) {
+  margin-bottom: 40px;
 }
 .right-img {
   height: 100%;
@@ -475,7 +475,7 @@ margin-left: 5px;
   border-left: 1px solid #aeadad;
   padding: 0 2vw;
 }
-.swiper-slide p{
+.swiper-slide p {
   font-weight: 200;
   margin-top: 2.7vw;
   width: 80%;
@@ -486,10 +486,10 @@ margin-left: 5px;
   width: 100%;
   /* background-color: #EFEAE3; */
 }
-#footer-bottom p{
+#footer-bottom p {
   margin-top: 1.7vw;
 }
-#footer-bottom a{
+#footer-bottom a {
   margin-top: 1.7vw;
 }
 
@@ -518,15 +518,15 @@ margin-left: 5px;
   /* background-color: red; */
   display: flex;
   justify-content: space-between;
-  padding: 2vw 3vw 3vw  3vw ;
+  padding: 2vw 3vw 3vw 3vw;
 }
-.outer1 h2{
-font-size: 2.3vw;
+.outer1 h2 {
+  font-size: 2.3vw;
 }
-.outer2{
+.outer2 {
   width: 20%;
 }
-.outer2 h4{
+.outer2 h4 {
   margin-bottom: 1.5vw;
 }
 #footer-bottom {
@@ -536,7 +536,7 @@ font-size: 2.3vw;
   display: flex;
   justify-content: space-between;
 }
-#footer-bottom a{
+#footer-bottom a {
   text-decoration: none;
   color: white;
 }
@@ -573,9 +573,9 @@ font-size: 2.3vw;
   --input-hovered-color: #4985e01f;
   position: relative;
   width: var(--width-of-input);
- }
- /* styling of Input */
- .input {
+}
+/* styling of Input */
+.input {
   color: #fff;
   font-size: 0.9rem;
   background-color: transparent;
@@ -585,9 +585,9 @@ font-size: 2.3vw;
   padding-block: 0.7em;
   border: none;
   border-bottom: var(--border-height) solid var(--border-before-color);
- }
- /* styling of animated border */
- .input-border {
+}
+/* styling of animated border */
+.input-border {
   position: absolute;
   background: var(--border-after-color);
   width: 0%;
@@ -595,35 +595,34 @@ font-size: 2.3vw;
   bottom: 0;
   left: 0;
   transition: 0.3s;
- }
- /* Hover on Input */
- input:hover {
+}
+/* Hover on Input */
+input:hover {
   background: var(--input-hovered-color);
- }
- 
- input:focus {
+}
+
+input:focus {
   outline: none;
- }
- /* here is code of animated border */
- input:focus ~ .input-border {
+}
+/* here is code of animated border */
+input:focus ~ .input-border {
   width: 100%;
- }
- /* === if you want to do animated border on typing === */
- /* remove input:focus code and uncomment below code */
- /* input:valid ~ .input-border{
+}
+/* === if you want to do animated border on typing === */
+/* remove input:focus code and uncomment below code */
+/* input:valid ~ .input-border{
    width: 100%;
  } */
 
- .work {
+.work {
   position: relative;
   top: 35%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
-.navbar{
+.navbar {
   padding: 0 2vw;
 }
-
 
 @media (max-width: 600px) {
   #page1 {
@@ -654,7 +653,8 @@ font-size: 2.3vw;
     border-radius: 50px;
     font-size: 4vw;
     font-weight: 200;
-    padding-left: 10vw;
+    padding-left: 5vw;
+    
   }
 
   #center {
@@ -742,7 +742,7 @@ font-size: 2.3vw;
     /* background-color: aliceblue; */
     padding: 10vw 4vw;
     display: flex;
-    align-items: flex-start;
+    /* align-items: flex-start; */
     justify-content: space-between;
     position: relative;
     flex-direction: column;
@@ -768,8 +768,51 @@ font-size: 2.3vw;
   #bottom-part2 p {
     font-weight: 200;
     margin-top: 2vw;
-    font-size: 3vw;
+    font-size: 4vw;
   }
+  .elem h2 {
+    font-size: 6vw;
+  }
+  .feature-head p {
+    font-size: 4vw;
+  }
+  .black-contain {
+    flex-direction: column;
+  }
+  .right-img img {
+    width: 167%;
+  }
+  .left-text {
+    width: 100%;
+  }
+  .left-text h1 {
+    font-size: 15.6vw;
+  }
+  .inner2 p {
+font-size: 4vw;
+margin-bottom: 5vw;
+  }
+  #page4 {
+    height: 52vh;
+}
+#footer-div {
+  height: 49vh;
+  padding: 8vw 3vw 3vw 3vw;
+  flex-direction: column;
+}
+.outer2 {
+  width: 75%;
+}
+.outer1 h2 {
+  font-size: 10.3vw;
+}
+#footer {
+  height: 100vh;
+}
+.feature-head {
+  margin-left: 10px;
+}
+
 
   #page2 #gooey {
     height: 62vw;
@@ -778,7 +821,6 @@ font-size: 2.3vw;
     border-radius: 50%;
     background: linear-gradient(to top right, #ff2d03, #ff5c0b);
     /* background: linear-gradient(to top right,red,blue); */
-
     top: 58%;
     left: 25%;
     filter: blur(20px);
